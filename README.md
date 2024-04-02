@@ -4,14 +4,14 @@
 Pengembangan model prediksi kemungkinan serangan jantung memiliki potensi dampak atau manfaat untuk membantu individu dan profesional medis dalam mengidentifikasi risiko serangan jantung. Contoh potensi manfaat dari hasil prediksi kemungkinan serangan jantung yang akurat:
 
 Bagi individu:
-- Meningkatkan kesadaran diri tentang risiko serangan jantung.
-- Mendorong individu untuk mengambil langkah-langkah preventif untuk mengurangi risiko.
-- Membantu individu untuk membuat keputusan yang lebih tepat tentang gaya hidup dan perawatan kesehatan.
+-             Meningkatkan kesadaran diri tentang risiko serangan jantung.
+-             Mendorong individu untuk mengambil langkah-langkah preventif untuk mengurangi risiko.
+-             Membantu individu untuk membuat keputusan yang lebih tepat tentang gaya hidup dan perawatan kesehatan.
 
 Bagi profesional medis:
-- Meningkatkan kemampuan untuk mengidentifikasi pasien berisiko tinggi.
-- Membantu dalam stratifikasi risiko dan skrining.
-- Memandu pengambilan keputusan tentang intervensi dan pengobatan.
+-             Meningkatkan kemampuan untuk mengidentifikasi pasien berisiko tinggi.
+-             Membantu dalam stratifikasi risiko dan skrining.
+-             Memandu pengambilan keputusan tentang intervensi dan pengobatan.
 
 ### Problem Statements
 - Berdasarkan eksplorasi dataset, fitur apa saja yang mempengaruhi kemungkinan serangan jantung?
