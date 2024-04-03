@@ -73,7 +73,8 @@ Berikut adalah hasil Exploratory Data Analysis (EDA), dimana Gambar 1 merupakan 
 ###### (ii)
 ![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/8fed164f-7221-4d37-b78f-3b0b01cb7414)
 ###### (iii)
-![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/81233423-5366-4af0-ab36-03b39ec89b2c)
+
+![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/1e92beee-8cf3-4bf7-8f04-13e3269c4e49)
 ###### (iv)
 #### Gambar 1.a Analisis Univariat Variabel Kategorik (i). Variabel 'sex', (ii) Variabel 'cp', (iii) Variabel 'slope', (iv) Variabel 'thal'
 
