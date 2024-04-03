@@ -1,4 +1,4 @@
-![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/1d7c0f69-c011-42ce-b773-552224c5fbab)# Laporan Proyek Machine Learning - Prediksi Posibilitas Serangan Jantung
+# Laporan Proyek Machine Learning - Prediksi Posibilitas Serangan Jantung
             
 ## Business Understanding
 Pengembangan model prediksi kemungkinan serangan jantung memiliki potensi dampak atau manfaat untuk membantu individu dan profesional medis dalam mengidentifikasi risiko serangan jantung. Contoh potensi manfaat dari hasil prediksi kemungkinan serangan jantung yang akurat:
