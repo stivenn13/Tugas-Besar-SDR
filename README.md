@@ -35,7 +35,7 @@ URL: https://www.kaggle.com/datasets/nareshbhat/health-care-data-set-on-heart-at
 Kemudian beberapa variabel pada data dimodifikasi membentuk data kategorikal sesuai dengan sumber *dataset* yaitu URL: https://archive.ics.uci.edu/ml/datasets/Heart+Disease
 
 Berikut merupakan detail dari *dataset* yang digunakan untuk pembuatan model:
-- Dataset berupa CSV
+- Dataset berupa xslx
 - Dataset terdiri dari 303 *records* dengan 14 buah variabel yang diukur.
 - Dataset terdiri dari 9 data kategorik (5 di antaranya sudah diubah menjadi data numerik) dan 5 data numerik.
 - Dataset memiliki *duplicated data* sejumlah 1 records
