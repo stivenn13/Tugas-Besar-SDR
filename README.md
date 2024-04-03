@@ -119,4 +119,58 @@ Pada proses Data Cleaning, secara garis besar, terdapat tiga metode yang dapat d
 Dilakukan beberapa jenis Machine Learning Modelling yaitu Logistic Regression, Naive Bayes, Random Forest Classifier, Extreme Gradient Boost, Decision Tree, dan Support Vector Machine. 
 
 ### Logistic Regression
-Logistic Regression adalah algoritma Supervised Machine Learning yang digunakan untuk tugas klasifikasi biner. LR memprediksi kemungkinan terjadinya suatu peristiwa dengan menganalisis hubungan antara satu atau lebih variabel independen dan variabel dependen biner. Model ini menggunakan fungsi logistik, yang mengubah keluaran menjadi probabilitas antara 0 dan 1, untuk memperkirakan kemungkinan terjadinya peristiwa. Regresi logistik banyak digunakan di berbagai bidang, termasuk kesehatan, pemasaran, keuangan, dan banyak lagi, karena kemudahan implementasi dan interpretasinya[[1](https://journals.lww.com/crst/fulltext/2021/07000/logistic_regression__a_simple_primer.24.aspx)]
+Logistic Regression adalah algoritma Supervised Machine Learning yang digunakan untuk tugas klasifikasi biner. LR memprediksi kemungkinan terjadinya suatu peristiwa dengan menganalisis hubungan antara satu atau lebih variabel independen dan variabel dependen biner. Model ini menggunakan fungsi logistik, yang mengubah keluaran menjadi probabilitas antara 0 dan 1, untuk memperkirakan kemungkinan terjadinya peristiwa. Regresi logistik banyak digunakan di berbagai bidang, termasuk kesehatan, pemasaran, keuangan, dan banyak lagi, karena kemudahan implementasi dan interpretasinya[[1](https://journals.lww.com/crst/fulltext/2021/07000/logistic_regression__a_simple_primer.24.aspx)].
+
+### Naive Bayes
+Naive Bayes adalah metode klasifikasi yang berakar pada teorema Bayes. Metode ini menggunakan probabilitas dan statistik untuk memprediksi peluang di masa depan berdasarkan pengalaman di masa sebelumnyaIndependensi yang kuat adalah asumsi dasar dalam Naive Bayes, yang berarti kondisi antar atribut saling bebas atau tidak saling berkaitan[[2](https://jurnal.fmipa.unmul.ac.id/index.php/SNMSA/article/download/520/217/)].
+
+### Random forest Classifier
+Random Forest adalah metode klasifikasi yang menggunakan kumpulan pohon keputusan (decision trees) untuk memprediksi label kelas pada data yang belum diberi label. Metode ini telah menarik perhatian peneliti karena akurasi tinggi dan keunggulannya dalam meningkatkan kinerja [[3](https://ejurnal.its.ac.id/index.php/sains_seni/article/download/48517/5833)].
+
+### Extreme Gradient Boost
+XGBoost, juga disebut sebagai Extreme Gradient Boosting, adalah algoritma pembelajaran ansambel yang menggunakan konsep “peningkatan gradien dengan pohon keputusan”, di mana kepentingan setiap pohon keputusan dihitung dan ditambahkan ke ansambel. XGBoost termasuk dalam kelompok algoritma peningkatan, yang menggabungkan prediksi beberapa Learning yang lemah (biasanya pohon keputusan) untuk menciptakan model prediksi yang kuat [[4](https://journals.nawroz.edu.krd/index.php/ajnu/article/view/1612)].
+
+### Decision Tree
+Decision Tree adalah algoritma Supervised Machine Learning yang digunakan untuk tugas klasifikasi dan regresi. Decision Tree memodelkan keputusan berdasarkan kondisi tertentu. Struktur pohon terdiri dari node (mewakili fitur atau atribut), edge (mewakili node penghubung), dan daun (mewakili label kelas atau nilai regresi) [[5](https://link.springer.com/article/10.1007/s10462-011-9272-4)].
+
+### Support Vector Machine
+SVM adalah algoritma Supervised Machine Learning yang digunakan untuk tugas klasifikasi dan regresi. Tujuan utamanya adalah menemukan hyperplane optimal dalam ruang berdimensi N yang memisahkan titik data ke dalam kelas berbeda. Hyperplane memaksimalkan margin antara titik terdekat dari kelas yang berbeda. SVM kuat terhadap outlier dan dapat menangani data berdimensi tinggi dan hubungan nonlinier [[6](https://link.springer.com/chapter/10.1007/978-1-4302-5990-9_3)]
+
+## Evaluation
+Pada Proyek ini, dilakukan Evaluasi untuk setiap Model ML dengan dua cara yaitu dengan mengetahui tingkat akurasi dari setiap model dan memeriksa metriks juga melakukan prediksi dari model yang sudah di ensemble dan model yang tidak di ensemle. 
+
+![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/25bd165a-8de1-4c24-b75c-fadbe693be13)
+###### Gambar 3 Perolehan Tingkat Akurasi dari Setiap ML Model
+
+![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/6c06417f-db33-40a9-9a5b-358e99a493fa)
+###### Gambar 4 Barplot Representasi Akurasi dari Setiap ML Model
+
+Berdasarkan perolehan tingkat akurasi dan barplot akurasi untuk setiap model diatas menyatakan bahwa model Logistic Regression, Random Forest, dan Support Vector Machine memiliki tingkat akurasi paling tinggi. Maka itu, dilakukan ensemble terhadap ketiga Model tersebut untuk membentuk model baru yang lebih bagus.
+
+![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/825c6056-6dec-406b-b213-fc8a531aacec)
+###### Gambar 5 Perolehan Tingkat Akurasi dari Model yang sudah di-Ensemble
+
+Dapat dilihat bahwa teknik Ensemble ML Model berhasil mendapatkan ML Model baru dengan tingkat akurasi yang lebih tinggi. Setelah itu, akan diperiksa metriks dan melakukan prediksi dari model yang sudah di-Ensemble dan model yang tidak di-Ensemble. 
+
+![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/c4df7077-54cb-4c29-8dee-c05ec0c6e64e)
+###### Gambar 6 Performa Model
+
+![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/97d6da97-b372-49ba-b28c-cabd62c39571)
+###### Gambar 7 Hasil Prediksi Model
+
+Berdasarkan hasil prediksi diatas, ML Models Decision Tree dan Ensembled Model (SCV) memiliki hasil prediksi yang paling dekat dengan nilai y_true. 
+
+Berdasarkan hasil evaluasi ML Models dengan tingkat akurasi dan melihat hasil prediksi dari setiap ML Models, dapat disimpulkan bahwa prediksi Ensembled Model-lah yang paling cocok untuk digunakan
+
+## Referensi:
+[1] Pal, Ankita. Logistic regression: A simple primer. Cancer Research, Statistics, and Treatment 4(3):p 551-554, Jul–Sep 2021. | DOI: 10.4103/crst.crst_164_21 
+
+[2] AZIZAH, Nur; GOEJANTORO, Rito; SIFRIYANI, Sifriyani. METODE NAIVE BAYES DENGAN PENDEKATAN DISTRIBUSI GAUSS UNTUK KLASIFIKASI PEMINATAN PESERTA DIDIK. Prosiding Seminar Nasional Matematika dan Statistika, [S.l.], v. 1, p. 8-14, may 2019. ISSN 2657-232X. Available at: <https://jurnal.fmipa.unmul.ac.id/index.php/SNMSA/article/view/520>. Date accessed: 03 apr. 2024.
+
+[3] L. Ratnawati and D. R. Sulistyaningrum, “Penerapan Random Forest Untuk Mengukur Tingkat Keparahan Penyakit Pada Daun apel,” Jurnal Sains dan Seni ITS, vol. 8, no. 2, Jan. 2020. doi:10.12962/j23373520.v8i2.48517 
+
+[4] Z. Arif Ali, Z. H. Abduljabbar, H. A. Taher, A. Bibo Sallow, and S. M. Almufti, “Exploring the Power of eXtreme Gradient Boosting Algorithm in Machine Learning: a Review”, ACAD J NAWROZ UNIV, vol. 12, no. 2, pp. 320–334, May 2023.
+
+[5] Kotsiantis, S.B. Decision trees: a recent overview. Artif Intell Rev 39, 261–283 (2013). https://doi.org/10.1007/s10462-011-9272-4
+
+[6] Awad, M., Khanna, R. (2015). Support Vector Machines for Classification. In: Efficient Learning Machines. Apress, Berkeley, CA. https://doi.org/10.1007/978-1-4302-5990-9_3
