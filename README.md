@@ -117,3 +117,6 @@ Pada proses Data Cleaning, secara garis besar, terdapat tiga metode yang dapat d
 
 ## Modelling
 Dilakukan beberapa jenis Machine Learning Modelling yaitu Logistic Regression, Naive Bayes, Random Forest Classifier, Extreme Gradient Boost, Decision Tree, dan Support Vector Machine. 
+
+### Logistic Regression
+Logistic Regression adalah algoritma Supervised Machine Learning yang digunakan untuk tugas klasifikasi biner. LR memprediksi kemungkinan terjadinya suatu peristiwa dengan menganalisis hubungan antara satu atau lebih variabel independen dan variabel dependen biner. Model ini menggunakan fungsi logistik, yang mengubah keluaran menjadi probabilitas antara 0 dan 1, untuk memperkirakan kemungkinan terjadinya peristiwa. Regresi logistik banyak digunakan di berbagai bidang, termasuk kesehatan, pemasaran, keuangan, dan banyak lagi, karena kemudahan implementasi dan interpretasinya[[1](https://journals.lww.com/crst/fulltext/2021/07000/logistic_regression__a_simple_primer.24.aspx)]
