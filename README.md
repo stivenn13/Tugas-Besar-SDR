@@ -65,7 +65,7 @@ Teknik visualisasi yang digunakan pada pembuatan model proyek ini adalah dengan 
 Berikut adalah hasil Exploratory Data Analysis (EDA), dimana Gambar 1 merupakan EDA Analisis Univariat dan Gambar 2 merupakan EDA Analisis Multivariat.
 
 ![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/b16f93d0-fe3f-4f0b-b264-b1310bb0dce9)
-#### Gambar 1.a Analisis Univariat Variabel 'sex'
+##### Gambar 1.a Analisis Univariat Variabel 'sex'
 ![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/cefbbdf0-9c67-47d4-98f4-87cc27f802a2)
 ![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/8fed164f-7221-4d37-b78f-3b0b01cb7414)![image](https://github.com/stivenn13/Tugas-Besar-SDR/assets/88883271/81233423-5366-4af0-ab36-03b39ec89b2c)![Uploading image.png…]()
 
