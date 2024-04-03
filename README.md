@@ -57,6 +57,8 @@ Berikut merupakan detail dari *dataset* yang digunakan untuk pembuatan model:
 - thal: hasil thallium stress test
 - target: 0 = lebih kecil kemungkinan terkena serangan jantung; 1 = lebih besar kemungkinan terkena serangan jantung
 
+## Data Analysis
+
 Untuk memahami data lebih lanjut, dilakukan Analisis Univariat, Analisis Multivariat, dan Visualisasi Data
 
 Analisis Univariat merupakan bentuk analisis data yang hanya merepresentasikan informasi yang terdapat pada satu variabel.  Jenis visualisasi ini umumnya digunakan untuk memberikan gambaran terkait distribusi sebuah variabel dalam suatu *dataset*. Sedangkan Analisis Multivariat melibatkan lebih dari dua variabel. Jenis visualisasi ini digunakan untuk merepresentasikan hubungan dan pola yang terdapat dalam multidimensional data. 
